@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>My Profile</title>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(10, 9, 9, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.title {
+  color: grey;
+  font-size: 50px;
+}
+body{
+    min-height: 100vh;
+    background-color: #7771a9;
+    background-size: cover;
+
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #120e11;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 26px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">My Profile</h1>
+
+<div class="card">
+  <img src="Linda.jpeg" alt="Linda" style="width:50%">
+  <h2>NORHASLINDA BINTI JAMIL</h2>
+  <p><strong>2021523059</strong></p>
+  <p><strong>RCS2405A</strong></p>
+  <div style="margin: 24px 0;">
+    <a href="https://sites.google.com/student.uitm.edu.my/norhaslinda/home"><i class="fa fa-google sites"></i></a> 
+  </div>
+  <button onclick="myFunction()"> MY BMI CALCULATOR</button>
+
+    <script>
+        function myFunction() {
+        location.replace("file:///C:/XAMPP5/htdocs/BMI%20Calculator/index.html")
+        }
+    </script>
+    
+</div>
+
+</body>
+</html>
